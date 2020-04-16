@@ -1,8 +1,10 @@
 <template><!--模板的视图渲染-->
 
   <div id="app">
+    <router-link to="/try">try</router-link>
     <router-link to="/login">login</router-link>
     <router-view></router-view>
+
   </div>
 </template>
 

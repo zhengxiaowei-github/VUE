@@ -3,6 +3,7 @@ import Router from 'vue-router'  //导入路由
 
 import Main from '../views/Main'   //导入模板
 import Login from '../views/Login'
+import Try from '../views/Try'
 
 Vue.use(Router);  //使用路由
 
@@ -14,6 +15,9 @@ export default new Router({   //配置路由
     },{
        path: '/login',
        component: Login
+    },{
+      path:'/try',
+      component:Try
     }
   ]
 });
